@@ -1,16 +1,16 @@
 # Color definitions
-set my_bg           = "color236"
-set my_fg           = "color252"
-set my_red          = "color210"
-set my_green        = "color114"
-set my_blue         = "color68"
-set my_aqua         = "color80"
-set my_yellow       = "color221"
-set my_orange       = "color209"
-set my_purple       = "color176"
-set my_comment      = "color246"
-set my_selection    = "color239"
-set my_current_line = "color237"
+set my_bg           = "<background>"
+set my_fg           = "<foreground>"
+set my_red          = "<red>"
+set my_green        = "<green>"
+set my_blue         = "<blue>"
+set my_aqua         = "<aqua>"
+set my_yellow       = "<yellow>"
+set my_orange       = "<orange>"
+set my_purple       = "<purple>"
+set my_comment      = "<comment>"
+set my_selection    = "<selection>"
+set my_current_line = "<current_line>"
 
 # basic components
 color hdrdefault $my_green $my_bg
