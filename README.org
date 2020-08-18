@@ -1,0 +1,40 @@
+#+title:    mutt-themes
+#+author:   Tom Trabue
+#+email:    tom.trabue@gmail.com
+#+date:     2020:08:18
+#+tags:     mutt mutt-themes
+
+* Color Themes for Mutt/Neomutt
+
+=mutt= is a fantastic email client for the terminal, but it's a bit on the drab
+side. Why not add a little color to spice things up? This project houses a
+number of different color schemes from the community that you can easily
+incorporate into =mutt= that will make your experience much more pleasant.
+
+** Usage
+   First, clone this repository. It is easiest to clone it into the same
+   directory where the rest of your =mutt= configuration resides, such as
+   =$XDG_CONFIG_HOME/mutt=, but this is not necessary.
+
+#+begin_src sh
+git clone git@github.com:tjtrabue/mutt-themes.git
+#+end_src
+
+   Next, source your favorite theme file in your =muttrc= file.
+
+#+begin_src sh
+...
+source /path/to/mutt-themes/<your-favorite-theme>.muttrc
+...
+#+end_src
+
+   And that's it! Couldn't be simpler.
+
+** Screenshots
+   TODO
+
+** Disclaimer
+   I do not claim ownership of any of these wonderful themes. They were all put
+   together by various individuals in the FOSS community, and although I will do
+   my best to give credit where credit is due, there may be times where I cannot
+   track down the parties responsible for a theme.
