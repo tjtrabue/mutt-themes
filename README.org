@@ -23,15 +23,23 @@ git clone git@github.com:tjtrabue/mutt-themes.git
    Next, source your favorite theme file in your =muttrc= file.
 
 #+begin_src sh
-...
+# ~/.muttrc
 source /path/to/mutt-themes/<your-favorite-theme>.muttrc
-...
 #+end_src
 
    And that's it! Couldn't be simpler.
 
 ** Screenshots
    TODO
+
+** Contributing
+   I am always looking for new themes, and I welcome any and all contributions!
+   If you have one you would like to submit, please open a pull request and I
+   will merge your file in as soon as I can.
+
+   Please place your theme in a file named =<theme-name>.muttrc=. We prefer the
+   =.muttrc= extension because that will allow text editors with a Mutt syntax
+   plugin to properly highlight the theme file.
 
 ** Disclaimer
    I do not claim ownership of any of these wonderful themes. They were all put
